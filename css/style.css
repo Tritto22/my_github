@@ -3,3 +3,47 @@
     margin: 0;
     padding: 0;
 }
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+/* debug */
+.debug .container_header {
+    background-color: #161b22;
+    height: 60px;
+    width: 100%;
+}
+/* /debug */
+
+/* header */
+
+.flexcenter {
+    display: flex;
+    align-items: center;
+}
+
+.container_header {
+    justify-content: space-between;
+}
+
+.right {
+    justify-content: flex-end;
+}
+
+.logo img {
+    height: 40px;
+    border-radius: 50%;
+}
+
+header a {
+    color: white;
+}
+
+.header_nav, .profile {
+}
+/* /header */
