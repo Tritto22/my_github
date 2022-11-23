@@ -34,7 +34,7 @@ li {
 
 .container_header {
     justify-content: space-between;
-    background-color: #1b222b;
+    background-color: #161b22;
     height: 60px;
 }
 
@@ -150,16 +150,6 @@ header a {
     margin-right: 5px;
 }
 
-/* .navfixed label {
-    margin-bottom: 10px;
-}
-
-.navfixed label:focus
-
-.navfixed label a {
-    font-size: 10px;
-} */
-
 .navfixed p {
     color: #2b3138;
     border: 1px dashed #2b3138;
@@ -167,7 +157,7 @@ header a {
     padding: 15px;
 }
 
-.margin, .navfixed li {
+.mb-10, .navfixed li {
     margin-bottom: 10px;
 }
 
@@ -178,6 +168,10 @@ header a {
     border-radius: 5px;
     height: 35px;
     padding: 5px 10px;
+}
+
+.txtbutton {
+    color: white;
 }
 
 /* /leftnav */
