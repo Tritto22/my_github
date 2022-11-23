@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-size: 14px;
 }
 
 body {
@@ -21,10 +22,7 @@ li {
 }
 
 /* debug */
-/* .debug .container_header {
-    height: 60px;
-    width: 100%;
-} */
+
 /* /debug */
 
 /* header */
@@ -36,11 +34,11 @@ li {
 
 .container_header {
     justify-content: space-between;
-    background-color: #161b22;
+    background-color: #1b222b;
     height: 60px;
 }
 
-.right {
+header .right {
     justify-content: flex-end;
 }
 
@@ -102,5 +100,81 @@ header a {
     margin-right: 15px;
 }
 
-
 /* /header */
+
+/* main */
+.flex {
+    display: flex;
+}
+
+.navfixed nav {
+    flex-direction: column;
+    width: 350px;
+    padding: 30px;
+    background-color: #0d1014;
+}
+.navfixed i,.navfixed a,.navfixed h4 {
+    color: white;
+}
+
+.titol {
+
+    justify-content: space-between;
+    align-items: center;
+}
+
+.titol button {
+    color: white;
+    background-color: green;
+    border: none;
+    height: 30px;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 30px;
+    width: 70px;
+    cursor: pointer;
+}
+
+.titol button:hover {
+    background-color: rgb(26, 173, 26);
+}
+
+.titol i {
+    margin-right: 5px;
+}
+
+/* .navfixed label {
+    margin-bottom: 10px;
+}
+
+.navfixed label:focus
+
+.navfixed label a {
+    font-size: 10px;
+} */
+
+.navfixed p {
+    color: #2b3138;
+    border: 1px dashed #2b3138;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.margin, .navfixed li {
+    margin-bottom: 10px;
+}
+
+.navsearchbar {
+    color: #b2b3b5;
+    background-color: #0d1117;
+    border:1px solid #2b3138;
+    border-radius: 5px;
+    height: 35px;
+    padding: 5px 10px;
+}
+
+
+
+
+
+/* /main */
