@@ -103,13 +103,20 @@ header a {
 /* /header */
 
 /* main */
+/* leftnav */
+
 .flex {
     display: flex;
 }
 
+.navfixed {
+    width: 25%;
+    
+}
+
 .navfixed nav {
+    height: 100vh;
     flex-direction: column;
-    width: 350px;
     padding: 30px;
     background-color: #0d1014;
 }
@@ -117,13 +124,13 @@ header a {
     color: white;
 }
 
-.titol {
+.navfixed .titol {
 
     justify-content: space-between;
     align-items: center;
 }
 
-.titol button {
+.navfixed .titol button {
     color: white;
     background-color: green;
     border: none;
@@ -135,11 +142,11 @@ header a {
     cursor: pointer;
 }
 
-.titol button:hover {
+.navfixed .titol button:hover {
     background-color: rgb(26, 173, 26);
 }
 
-.titol i {
+.navfixed .titol i {
     margin-right: 5px;
 }
 
@@ -173,8 +180,11 @@ header a {
     padding: 5px 10px;
 }
 
+/* /leftnav */
 
-
+main section.center {
+    width: 50%;
+}
 
 
 /* /main */
