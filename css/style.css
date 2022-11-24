@@ -209,6 +209,10 @@ h1 {
     font-size: 3px;
 }
 
+.row {
+    margin-bottom: 20px;
+}
+
 .row .head .left i {
     background-color: #b1bac4;
     border-radius: 50%;
@@ -223,19 +227,47 @@ h1 {
     background-color: #0d1117;
     border: 1px solid #2b3138;
     border-radius: 5px;
+    padding: 20px;
 }
 
 .content_row .public i, .private i {
     font-size: 30px;
 }
 
-.content_row button {
+.container_row .left button {
     width: 200px;
 }
 
-.content_row {
+.container_row .left{
     margin-right: 20px;
 }
+
+.container_row .right button {
+    width: 70px;
+}
+/* .container_row .right .table {
+    border: 1px solid #2b3138;
+    border-radius: 5px;
+    padding: 10px;
+} */
+
+.container_row .right .head_table {
+    background-color: #0d1117;
+    border: 1px solid #2b3138;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding: 10px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.container_row .right .table_content {
+    padding: 10px;
+    border: 1px solid #2b3138;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
 /* /center */
 
 /* /main */
