@@ -131,6 +131,10 @@ header a {
 }
 
 .navfixed .titol button {
+    width: 70px;
+}
+
+button {
     color: white;
     background-color: green;
     border: none;
@@ -138,11 +142,10 @@ header a {
     border-radius: 10px;
     text-align: center;
     line-height: 30px;
-    width: 70px;
     cursor: pointer;
 }
 
-.navfixed .titol button:hover {
+button:hover {
     background-color: rgb(26, 173, 26);
 }
 
@@ -161,13 +164,17 @@ header a {
     margin-bottom: 10px;
 }
 
-.navsearchbar {
+.navsearchbar, .init_rep input {
     color: #b2b3b5;
     background-color: #0d1117;
-    border:1px solid #2b3138;
+    border: 1px solid #2b3138;
     border-radius: 5px;
     height: 35px;
     padding: 5px 10px;
+}
+
+.navsearchbar:focus, .init_rep input:focus {
+    border: 2px solid #0060df;
 }
 
 .txtbutton {
@@ -176,9 +183,59 @@ header a {
 
 /* /leftnav */
 
+/* center */
+
 main section.center {
     width: 50%;
+    background-color: #010409;
+    color: white;
+    padding: 30px;
 }
 
+.center .titol {
+    margin-bottom: 30px;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+.center .head {
+    width: 100%;
+    justify-content: space-between;
+}
+
+.center .head .right i {
+    font-size: 3px;
+}
+
+.row .head .left i {
+    background-color: #b1bac4;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.mr-10 {
+    margin-right: 10px;
+}
+
+.center .content_row {
+    background-color: #0d1117;
+    border: 1px solid #2b3138;
+    border-radius: 5px;
+}
+
+.content_row .public i, .private i {
+    font-size: 30px;
+}
+
+.content_row button {
+    width: 200px;
+}
+
+.content_row {
+    margin-right: 20px;
+}
+/* /center */
 
 /* /main */
