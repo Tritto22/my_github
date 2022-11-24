@@ -21,6 +21,14 @@ li {
     list-style-type: none;
 }
 
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+.mr-20{
+    margin-right: 20px;
+}
+
 /* debug */
 
 /* /debug */
@@ -245,11 +253,6 @@ h1 {
 .container_row .right button {
     width: 70px;
 }
-/* .container_row .right .table {
-    border: 1px solid #2b3138;
-    border-radius: 5px;
-    padding: 10px;
-} */
 
 .container_row .right .head_table {
     background-color: #0d1117;
@@ -268,6 +271,17 @@ h1 {
     border-bottom-right-radius: 5px;
 }
 
+.content_row .description a {
+    color: #0060df;
+}
+
+.content_row .description a:hover {
+    text-decoration: underline;
+}
+
+.content_row .description i {
+    font-size: 40px;
+}
 /* /center */
 
 /* /main */
