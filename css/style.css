@@ -236,6 +236,7 @@ h1 {
     border: 1px solid #2b3138;
     border-radius: 5px;
     padding: 20px;
+    width: calc(100% / 2 - 20px);
 }
 
 .content_row .public i, .private i {
@@ -246,11 +247,7 @@ h1 {
     width: 200px;
 }
 
-.container_row .left{
-    margin-right: 20px;
-}
-
-.container_row .right button {
+.container_row .right .head_table button {
     width: 70px;
 }
 
@@ -282,6 +279,16 @@ h1 {
 .content_row .description i {
     font-size: 40px;
 }
+
+.container_row .left img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.container_row .right .github_flow {
+    background-color: #21262d;
+}
+
 /* /center */
 
 /* /main */
