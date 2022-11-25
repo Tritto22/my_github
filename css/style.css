@@ -298,6 +298,18 @@ h1 {
     border: 2px solid #616e7e;
 }
 
+.menu_up_footer .head a {
+    color: white;
+}
+
+.menu_up_footer .head a span {
+    margin-left: 5px;
+    color: #39a849;
+    border: 1px solid #39a849;
+    border-radius: 10px;
+    padding: 0 5px;
+    font-size: 10px;
+}
 
 /* /center */
 
