@@ -285,9 +285,19 @@ h1 {
     object-fit: cover;
 }
 
-.container_row .right .github_flow {
+.github_flow a {
+    color: white;
     background-color: #21262d;
+    border: 1px solid #2e3238;
+    border-radius: 5px;
+    padding: 5px 10px;
 }
+
+.github_flow a:hover {
+    background-color: #404244;
+    border: 2px solid #616e7e;
+}
+
 
 /* /center */
 
