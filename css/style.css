@@ -464,9 +464,78 @@ section.right .container {
     font-size: 20px;
 }
 
+section.right .container .content a {
+    color: white;
+    width: 100%;
+    text-align: center;
+    background-color: #21262d;
+    border: 1px solid #2e3238;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+section.right .container .content a:hover {
+    background-color: #404244;
+    border: 2px solid #616e7e;
+}
+
+.sub_container .description p {
+    width: 150px;
+}
+
+.sub_container .icons {
+    flex-wrap: wrap;
+}
+
+.sub_container .icons .icon {
+    padding: 10px;
+}
+
+.sub_container .icons .img1 {
+    border-bottom: 1px solid #717274;
+}
 
 
+.sub_container .icons .icon img {
+    border-radius: 7px;
+    width: 30px;
+    object-fit: cover;
+}
 
+.container_changes a {
+    color: #cdd0d3;
+}
+
+.container_changes a:hover {
+    color: #0060df;
+    text-decoration: underline;
+}
+
+.container_changes .time {
+    color: #484d55;
+    font-size: 12px;
+}
+
+.container_changes .view a {
+    color: #484d55;
+    font-size: 12px;
+}
+
+.container_changes .view a:hover {
+    color: #0060df;
+    text-decoration: none;
+}
+
+.container_changes ul li {
+    list-style-type: disc;
+    font-size: 25px;
+    color: #2e3238;
+}
+
+.container_changes ul {
+    padding-left: 17px;
+    border-left: 1px solid #2e3238;
+}
 
 /* /center */
 
