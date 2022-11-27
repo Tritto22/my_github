@@ -298,8 +298,26 @@ h1 {
     border: 2px solid #616e7e;
 }
 
+/* .menu_up_footer .head {
+    border-bottom: 1px solid #2e3238;
+} */
+
 .menu_up_footer .head a {
     color: white;
+    padding: 20px;
+    border-bottom: 1px solid #2b3138;
+}
+
+/* fake */
+
+.menu_up_footer .head .first {
+    border-bottom: 2px solid #f78166;
+}
+
+/* /fake */
+
+.menu_up_footer .head a:focus {
+    border-bottom: 2px solid #f78166;
 }
 
 .menu_up_footer .head a span {
@@ -309,6 +327,52 @@ h1 {
     border-radius: 10px;
     padding: 0 5px;
     font-size: 10px;
+}
+
+.menu_up_footer .content {
+    border-top: 1px solid #2b3138;
+    border-bottom: 1px solid #2b3138;
+    padding: 20px 0;
+}
+
+.menu_up_footer .content i {
+    font-size: 30px;
+}
+
+.menu_up_footer .content .description a {
+    color: white;
+    font-weight: bold;
+}
+
+.menu_up_footer .content span {
+    font-size: 10px;
+    color: #696b6e;
+}
+
+.menu_up_footer .content .users {
+    justify-content: space-between;
+    margin-left: 100px;
+    background-color: #0d1117;
+    border: 1px solid #2b3138;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.users .info .name  a {
+    color: white;
+}
+
+.users .info .about a {
+    font-size: 10px;
+    color: #696b6e;
+}
+
+.content .users .follow a {
+    color: white;
+    background-color: #21262d;
+    border: 1px solid #2e3238;
+    border-radius: 5px;
+    padding: 5px 10px;
 }
 
 /* /center */
