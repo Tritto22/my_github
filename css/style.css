@@ -48,16 +48,22 @@ h2 {
     justify-content: space-between;
     background-color: #161b22;
     height: 60px;
+    padding: 30px;
 }
 
 header .right {
     justify-content: flex-end;
 }
 
-.logo img {
-    height: 40px;
+.logo i {
+    color: #f0f6fc;
+    font-size: 40px;
     border-radius: 50%;
-    margin-right: 15px;
+}
+
+.logo i:hover {
+    color: #b2b3b5;
+    cursor: pointer;
 }
 
 .searchbar {
@@ -110,6 +116,14 @@ input:focus + label {
 header a {
     color: white;
     margin-right: 15px;
+}
+
+.header_nav a {
+    font-weight: bold;
+}
+
+header a:hover {
+    color: #b2b3b5;
 }
 
 /* /header */
@@ -173,8 +187,16 @@ button:hover {
     padding: 15px;
 }
 
-.mb-10, .navfixed li {
+.mb-10 {
     margin-bottom: 10px;
+}
+
+#your_rep a, #your_rep i {
+    color: #b7c0c8;
+}
+
+#your_rep a:hover {
+    text-decoration: underline;
 }
 
 .navsearchbar, .init_rep input {
@@ -191,7 +213,14 @@ button:hover {
 }
 
 .txtbutton {
-    color: white;
+    font-size: 12px;
+    color: #6f747d;
+    width: fit-content;
+}
+
+.txtbutton:hover {
+    color: #0060df;
+    cursor: pointer;
 }
 
 /* /leftnav */
@@ -432,6 +461,11 @@ h1 {
     font-size: 30px;
 }
 
+.copyright i:hover {
+    color: #616e7e;
+    cursor: pointer;
+}
+
 .copyright {
     margin-right: 150px;
 }
@@ -439,6 +473,11 @@ h1 {
 .link a {
     color: #696b6e;
     font-size: 12px;
+}
+
+.link a:hover {
+    text-decoration: underline;
+    color: #0060df;
 }
 
 .link ul {
@@ -469,6 +508,13 @@ section.right .container {
 
 .container .titol .left h2{
     font-size: 20px;
+}
+
+button.cross {
+    line-height: 15px;
+    width: 15px;
+    height: 15px;
+    background-color: #0d1117;
 }
 
 section.right .container .content a {
