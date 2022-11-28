@@ -114,7 +114,6 @@ header a {
 
 /* /header */
 
-/* main */
 /* leftnav */
 
 .flex {
@@ -125,16 +124,14 @@ header a {
     width: 25%;
     background-color: #0d1014;
     height: 100vh;
-
+    position: sticky;
+    top: 0;
+    
 }
 
 .navfixed nav {
-    height: 100vh;
-    width: 25%;
     flex-direction: column;
     padding: 30px;
-    background-color: #0d1014;
-    position: fixed;
 }
 .navfixed i,.navfixed a,.navfixed h4 {
     color: white;
@@ -199,7 +196,10 @@ button:hover {
 
 /* /leftnav */
 
+/* main */
+
 /* center */
+
 
 main section.center {
     width: 50%;
